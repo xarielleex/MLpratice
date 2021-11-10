@@ -10,9 +10,9 @@ warnings.filterwarnings('ignore')
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 """
 import os
-print(os.listdir("D://NCHUgraduated/gracademic/二上/ML/mmlecommerce"))
+print(os.listdir("ML/mmlecommerce"))
 
-for dirname, _, filenames in os.walk('D://NCHUgraduated/gracademic/二上/ML/mmlecommerce'):
+for dirname, _, filenames in os.walk('ML/mmlecommerce'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
